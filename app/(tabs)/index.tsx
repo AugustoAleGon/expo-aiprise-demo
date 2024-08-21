@@ -1,9 +1,4 @@
-import { Image, StyleSheet, Platform, View } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { StyleSheet, View } from 'react-native';
 import { useCamera } from '@/hooks/useCamera';
 import { AiPriseButton } from 'aiprise-react-native-sdk';
 
@@ -14,7 +9,7 @@ export default function HomeScreen() {
       <View style={styles.buttonContainer}>
         <AiPriseButton
           mode="SANDBOX"
-          templateID="060b3bcd-c309-46fa-be6a-0f15cb4d9a3a"
+          templateID="TEMPLATE_ID"
           key="ai-prise-button"
         />
       </View>
